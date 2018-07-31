@@ -28,30 +28,7 @@ namespace Revision90
             txtboxpath.Text = ofd.FileName;
         }
 
-        private void displaybtn_Click(object sender, EventArgs e)
-        {
-            string filePath = txtboxpath.Text;
-            StreamReader sr = new StreamReader(filePath);
-            string line = sr.ReadLine();
-            string[] value = line.Split(',');
-
-            DataRow row;
-            foreach (string dc in value)
-            {
-                datatable.Columns.Add(new DataColumn(dc));
-            }
-            while (!sr.EndOfStream)
-            {
-                value = sr.ReadLine().Split(',');
-                if (value.Length == datatable.Columns.Count)
-                {
-                    row = datatable.NewRow();
-                    row.ItemArray = value;
-                    datatable.Rows.Add(row);
-                }
-            }
-            
-        }
+        
 
         private void calculatebtn_Click(object sender, EventArgs e)
         {
