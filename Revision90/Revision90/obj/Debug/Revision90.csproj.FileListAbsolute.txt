@@ -1,0 +1,9 @@
+C:\Users\Punam\Desktop\Revision90\Revision90\bin\Debug\Revision90.exe.config
+C:\Users\Punam\Desktop\Revision90\Revision90\bin\Debug\Revision90.exe
+C:\Users\Punam\Desktop\Revision90\Revision90\bin\Debug\Revision90.pdb
+C:\Users\Punam\Desktop\Revision90\Revision90\obj\Debug\Revision90.csprojResolveAssemblyReference.cache
+C:\Users\Punam\Desktop\Revision90\Revision90\obj\Debug\Revision90.Form1.resources
+C:\Users\Punam\Desktop\Revision90\Revision90\obj\Debug\Revision90.Properties.Resources.resources
+C:\Users\Punam\Desktop\Revision90\Revision90\obj\Debug\Revision90.csproj.GenerateResource.Cache
+C:\Users\Punam\Desktop\Revision90\Revision90\obj\Debug\Revision90.exe
+C:\Users\Punam\Desktop\Revision90\Revision90\obj\Debug\Revision90.pdb
