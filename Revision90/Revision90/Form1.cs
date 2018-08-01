@@ -57,8 +57,7 @@ namespace Revision90
             int startIndex = 0;
             while (startIndex < datatable.Rows.Count)
             {
-                DateTime timeStart = DateTime.ParseExact(datatable.Rows[startIndex][1].ToString(), "dd-MM-yy HH:mm",
-                    CultureInfo.InvariantCulture);
+                DateTime timeStart = DateTime.ParseExact(datatable.Rows[startIndex][1].ToString(), "dd-MM-yy HH:mm", null);
                 DateTime timeEnd = timeStart;
                 int lowestDValue = int.Parse(datatable.Rows[startIndex][3].ToString());
                 int lowestCValue = int.Parse(datatable.Rows[startIndex][2].ToString());
@@ -70,8 +69,7 @@ namespace Revision90
                 {
                     endIndex = j;
 
-                    timeEnd = DateTime.ParseExact(datatable.Rows[endIndex][1].ToString(), "dd-MM-yy HH:mm",
-                        CultureInfo.InvariantCulture);
+                    timeEnd = DateTime.ParseExact(datatable.Rows[endIndex][1].ToString(), "dd-MM-yy HH:mm", null);
                     if ((timeEnd - timeStart).TotalMinutes >= 5)
                     {
                         break;
